@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="2" preserve-order="true" name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Listners.ExtentReportManager">
+        </listener>
+    </listeners>
+    <test name="HRMOrgTest">
+        <classes>
+            <class name="Listners.HRMOrgTest">
+                <methods>
+                    <include name="logoDisplay"/>
+                    <include name="titleValidation"/>
+                    <include name="url"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

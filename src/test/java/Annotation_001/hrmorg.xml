@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/macbook/eclipse-workspace/TestNG-Project/src/test/java/Annotation_001/HRMOrgTest.java">
+        <classes>
+            <class name="Annotation_001.HRMOrgTest">
+                <methods>
+                    <include name="openApp"/>
+                    <include name="LogoPresence"/>
+                    <include name="logIn"/>
+                    <include name="logOut"/>
+                    <include name="closeWind"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

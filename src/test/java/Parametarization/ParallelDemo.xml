@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" preserve-order="true" name="All Test Suite" parallel="tests">
+    <test name="chrometest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Parametarization.ParellDemo">
+                <methods>
+                    <include name="testLogo"/>
+                    <include name="testTitle"/>
+                    <include name="testUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="safaritest">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="Parametarization.ParellDemo">
+                <methods>
+                    <include name="testLogo"/>
+                    <include name="testTitle"/>
+                    <include name="testUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="firefoxtest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="Parametarization.ParellDemo">
+                <methods>
+                    <include name="testLogo"/>
+                    <include name="testTitle"/>
+                    <include name="testUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/macbook/eclipse-workspace/TestNG-Project/src/test/java/Annotation_001/AllAnnotations.java">
+        <classes>
+            <class name="Annotation_001.AllAnnotations">
+                <methods>
+                    <include name="logIn"/>
+                    <include name="logOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
